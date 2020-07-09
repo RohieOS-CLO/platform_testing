@@ -21,12 +21,14 @@ instrumentation_metric_tests := \
     MtpServicePerfTests \
     RsBlasBenchmark \
     ImageProcessingJB \
+    MediaProviderClientTests \
     MultiUserPerfDummyApp \
     MultiUserPerfTests \
     NeuralNetworksApiBenchmark \
     PackageManagerPerfTests \
     TextClassifierPerfTests \
-    WmPerfTests
+    WmPerfTests \
+    trace_config_detailed.textproto
 
     # TODO(b/72332760): Uncomment when fixed
     #DocumentsUIPerfTests
